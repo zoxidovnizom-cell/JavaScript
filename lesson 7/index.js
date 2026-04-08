@@ -150,9 +150,9 @@
 
 
 // 15. Foydalanuvchi prompt dan kiritgan N soni uchun ko‘paytirish jadvalini chiqaring.
-let n = 5;
-for (let  i = 1; i <= n; i++) {
-    for (let k = 1; k <= 10; k++) {
-        console.log(`${i} x ${k} = ${i * k}`);
-    }
-}
+// let n = 5;
+// for (let  i = 1; i <= n; i++) {
+//     for (let k = 1; k <= 10; k++) {
+//         console.log(`${i} x ${k} = ${i * k}`);
+//     }
+// }

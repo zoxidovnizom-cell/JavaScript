@@ -163,12 +163,78 @@
 
 
 // ================================
+// for (let i = 5; i <= 15; i++) console.log(i);
+
+// // ============================
+// let s = 0;
+// for (let i = 1; i <= 200; i++) s += i;
+// console.log(s);
+
+
+// =============================
+
+
+// 1
 for (let i = 5; i <= 15; i++) console.log(i);
 
-// ============================
-let s = 0;
-for (let i = 1; i <= 200; i++) s += i;
-console.log(s);
+// 2
+let sum2 = 0;
+for (let i = 1; i <= 200; i++) sum2 += i;
+console.log(sum2);
+
+// 3
+for (let i = 1; i <= 60; i++) if (i % 2 === 0) console.log(i);
+
+// 4
+for (let i = 1; i <= 60; i++) if (i % 2 === 0) console.log(i);
+
+// 5
+let N5 = 5;
+for (let i = 1; i <= N5; i++) console.log(i * i * i);
+
+// 6
+let N6 = 20;
+for (let i = 1; i <= N6; i++) if (i % 4 === 0) console.log(i);
+z
+// 7
+let N7 = 10;
+let sum7 = 0;
+for (let i = 1; i <= N7; i++) sum7 += i;
+console.log(sum7);
+
+// 8
+for (let i = 1; i <= 150; i++) if (i % 3 === 0 && i % 5 === 0) console.log(i);
+
+// 9
+for (let i = 20; i >= 1; i--) console.log(i);
+
+// 10
+let N10 = 10;
+let sum10 = 0;
+for (let i = 1; i <= N10; i++) if (i % 2 === 0) sum10 += i;
+console.log(sum10);
+
+// 11
+let N11 = 10;
+let count11 = 0;
+for (let i = 1; i <= N11; i++) if (i % 2 === 0) count11++;
+console.log(count11);
+
+// 12
+let N12 = 10;
+let min = 1;
+for (let i = 1; i <= N12; i++) if (i < min) min = i;
+console.log(min);
+
+// 13
+let count13 = 0;
+for (let i = 1; i <= 30; i++) if (i % 3 === 0) count13++;
+console.log(count13);
+
+// 14
+let N14 = 25;
+for (let i = 1; i <= N14; i++) if (i < 20) console.log(i);
+
 
 
 
